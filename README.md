@@ -6,7 +6,7 @@ Make and edit videos with [Ymotion](https://ymotion.ai) from Codex or Claude Cod
 ## Codex (ChatGPT desktop)
 
 ```bash
-codex plugin marketplace add singlamanik12/ymotion-plugin
+codex plugin marketplace add ymotion-ai/plugin
 ```
 
 Then open the Plugins Directory in the ChatGPT desktop app, choose **Ymotion**, install it, and sign in
@@ -15,7 +15,7 @@ with your Ymotion account when asked.
 ## Claude Code
 
 ```text
-/plugin marketplace add singlamanik12/ymotion-plugin
+/plugin marketplace add ymotion-ai/plugin
 /plugin install ymotion@ymotion
 ```
 
