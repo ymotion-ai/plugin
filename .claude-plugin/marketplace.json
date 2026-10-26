@@ -1,0 +1,15 @@
+{
+  "name": "ymotion",
+  "description": "Ymotion's plugin for Claude Code: its video-editing tools and a skill on how to use them.",
+  "owner": {
+    "name": "Ymotion",
+    "url": "https://ymotion.ai"
+  },
+  "plugins": [
+    {
+      "name": "ymotion",
+      "source": "./plugins/ymotion",
+      "description": "Make and edit videos with Ymotion: reels, captions, hook text, cuts, grades, transitions, sound and exports."
+    }
+  ]
+}

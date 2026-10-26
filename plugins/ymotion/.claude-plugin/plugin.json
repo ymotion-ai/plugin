@@ -1,0 +1,12 @@
+{
+  "name": "ymotion",
+  "version": "1.0.0",
+  "description": "Make and edit videos with Ymotion: reels, captions, hook text, cuts, grades, transitions, sound and exports.",
+  "author": {
+    "name": "Ymotion",
+    "url": "https://ymotion.ai"
+  },
+  "homepage": "https://ymotion.ai",
+  "license": "UNLICENSED",
+  "keywords": ["video", "editing", "reels", "captions", "motion graphics", "mcp"]
+}

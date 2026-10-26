@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ymotion": {
+      "type": "http",
+      "url": "https://ymotion.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "ymotion": {
+      "type": "streamable-http",
+      "url": "https://ymotion.ai/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": { "mode": "dcr" },
+            "authorizationUrl": "https://ymotion.ai/authorize",
+            "tokenUrl": "https://ymotion.ai/token",
+            "registrationUrl": "https://ymotion.ai/register",
+            "resource": "https://ymotion.ai",
+            "baseScopes": ["ymotion"]
+          }
+        }
+      }
+    }
+  }
+}

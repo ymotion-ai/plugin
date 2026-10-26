@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ymotion",
+  "version": "1.0.0",
+  "description": "Make and edit videos with Ymotion: reels, captions, hook text, cuts, grades, transitions, sound and exports.",
+  "author": {
+    "name": "Ymotion",
+    "url": "https://ymotion.ai"
+  },
+  "homepage": "https://ymotion.ai",
+  "license": "UNLICENSED",
+  "keywords": ["video", "editing", "reels", "captions", "motion graphics", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ymotion",
+        "shortDescription": "Make and edit videos with Ymotion",
+        "longDescription": "Edit videos and make reels through Ymotion's editor: captions from the speech, hook text, cuts, grades, transitions, sound effects and music, then export. Every edit opens in the web editor at ymotion.ai.",
+        "developerName": "Ymotion",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://ymotion.ai",
+        "defaultPrompt": [
+          "Make a reel from my video with captions and a hook.",
+          "Add captions to this video.",
+          "Cut the pauses out of my talking-head video."
+        ],
+        "brandColor": "#111114",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
